@@ -1,4 +1,45 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+    margin: 20px;
+}
+.disp-flex{
+    display: flex;
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+.half-width{
+    width: 50%;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+.col-orange{
+    color:orange;
+}
+.bord-col{
+    border-left: 2px solid tomato;
+    padding-left: 5px;
+}
+.button-link{
+    background-color: tomato;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    width: 100px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.middle{
+    text-align: center;
+}
+.ilst-img img{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+footer{
+    background-color: black;
+    color: white;
 }
