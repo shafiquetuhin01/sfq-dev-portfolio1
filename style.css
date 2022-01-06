@@ -31,3 +31,11 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+.drim-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.paddingdb{
+    padding-left: 40px;
+}
