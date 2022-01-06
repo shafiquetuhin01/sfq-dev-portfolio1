@@ -5,10 +5,16 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 25px;
+}
 .shafique-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .half-width{
@@ -38,4 +44,34 @@ section{
 }
 .paddingdb{
     padding-left: 40px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    margin-bottom: 150px;
+
+}
+#unique-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+
+}
+#unique-border1{
+    border-left: 7px solid;
+    border-image: linear-gradient(cyan,blue);
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align: center;
 }
